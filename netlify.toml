@@ -1,0 +1,7 @@
+[build]
+  publish = "public"
+  command = "node scripts/gen-bank.mjs && node scripts/set-og-url.mjs"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
